@@ -1,0 +1,48 @@
+> Simple Guide to Secure Your Router By @Yuk1meow
+> After purchasing your router, follow these steps to ensure its security:
+
+1. Configure your router by starting with the WAN settings. Change the default user and password. Update your router's firmware to the latest version. If your ISP doesn't use MAC linking, set a randomized MAC address.
+
+2. If you use Wi-Fi, set it to the latest possible mode supported by your devices. Use WPA3 only (if supported) or WPA3/WPA2 or WPA2 for security. Reduce the transmission power to limit the visibility of your network.
+
+3. Set a strong password, disable WPS completely, and enable Client and SSID Isolation. Client isolation allows devices on the LAN to communicate only via broadcast/multicast. SSID Isolation means your network name and password are required to connect to the network.
+
+4. Configure your firewall settings. Look for pages named "Firewall" or "Security."
+
+> Enable the "SPI Firewall" setting to automatically block possible threats, including DDoS attacks.
+
+> Enable "SYN Proxy (Defender)/SYN Cookies" to protect against common TCP attacks. SYN Proxy intercepts and manages TCP handshakes, while SYN Cookies mitigate SYN flood attacks.
+
+> Enable "RP Filter" (Reverse Path Filtering) to prevent IP spoofing attacks by verifying the legitimacy of incoming packets based on the source IP address.
+
+> Enable "DoS Protection" (On TP-Link) to block attacks from WAN and LAN devices, enhancing security.
+
+> Enable "Two-Way IPS" (On Asus) to block attacks from WAN and protect your LAN from various threats.
+
+> Enable "Stealth Mode/Forbid ping from WAN|LAN" to make your router invisible for unsolicited packets and ICMP echo requests from both WAN and LAN, increasing security.
+
+> Set "Security Levels" to "High/Max" to protect your router and LAN from malware and certain attack types. It also disables DMZ and port forwarding for added protection.
+
+> Disable all "NAT ALG" settings as they are unnecessary and unused.
+
+> Disable DMZ and Port Forwarding to minimize potential attack vectors.
+
+5. Change DNS to 1.1.1.2 and 1.0.0.2 for added security.
+
+6. Disable all unused services to reduce potential vulnerabilities.
+
+7. Disable remote management to prevent unauthorized access.
+
+8. Disable IPv6 if your ISP doesn't support it to eliminate potential security risks.
+
+9. Disable UPnP and NAT-PMP to prevent possible security issues.
+
+10. Never share your network password and SSID with unknown individuals. Enable a Guest Network for visitors.
+
+11. Restrict access to the router by using MAC Address or IP filtering.
+
+12. Enable Anti ARP Spoofing if you are not using randomized MAC addresses.
+
+13. Utilize MAC Whitelist and IP Whitelist if possible to control access to your network.
+
+By following these steps, you can significantly improve the security of your router and protect your home network from potential threats.
